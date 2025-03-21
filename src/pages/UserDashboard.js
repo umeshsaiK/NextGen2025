@@ -14,8 +14,8 @@ const socket = io('http://localhost:5000');
 const UserDashboard = () => {
   const location = useLocation();
   const [user, setUser] = useState({
-    name: 'Evangeline',
-    email: 'evangeline@example.com',
+    name: 'Umesh',
+    email: 'umeshsai@example.com',
     postedRecipes: 5,
     likedRecipes: 3,
     avatar: Avatar1,
